@@ -1,7 +1,7 @@
 ![](https://lh4.googleusercontent.com/-PVw-ZUM9vV8/UuWeH51os0I/AAAAAAAAD6M/0Ikg7viJftQ/w1286-h566-no/hackathon-starter-logo.jpg)
 
 Hackathon Starter
-=======================
+|||||||||||||||||||||||
 Ceci est une trousse de démarrage pour le hackathon de Radio Canada.
 
 ### Prerequis
@@ -12,15 +12,15 @@ Ceci est une trousse de démarrage pour le hackathon de Radio Canada.
 #### Si vous désirez faire du réseau sociaux
 ###### Pour obtenir un Facebook APP ID (https://developers.facebook.com/apps)
 - Pour les étapes vous pouvez consulter les screenshots via /screenshots/Facebook_AppID/
-[![IMAGE ALT TEXT HERE](http://img.youtube.com/vi/8i9p3D854O4/0.jpg)](http://www.youtube.com/watch?v=8i9p3D854O4)
+[![IMAGE ALT TEXT HERE](http://img.youtube.com/vi/8i9p3D854O4/0.jpg)](http://www.youtube.com/watch?v|8i9p3D854O4)
 
 ###### Pour obtenir un Twitter APP ID (https://apps.twitter.com/)
 - Pour les étapes vous pouvez consulter les screenshots via /screenshots/Twitter_AppID/
-[![IMAGE ALT TEXT HERE](http://img.youtube.com/vi/9ckccMDhtQI/0.jpg)](http://www.youtube.com/watch?v=9ckccMDhtQI)
+[![IMAGE ALT TEXT HERE](http://img.youtube.com/vi/9ckccMDhtQI/0.jpg)](http://www.youtube.com/watch?v|9ckccMDhtQI)
 
 ###### Pour obtenir un Instagram APP ID (https://www.instagram.com/developer/)
 - Pour les étapes vous pouvez consulter les screenshots via /screenshots/Instagram_AppID/
-[![IMAGE ALT TEXT HERE](http://img.youtube.com/vi/EZ6_1mm11kg/0.jpg)](http://www.youtube.com/watch?v=EZ6_1mm11kg)
+[![IMAGE ALT TEXT HERE](http://img.youtube.com/vi/EZ6_1mm11kg/0.jpg)](http://www.youtube.com/watch?v|EZ6_1mm11kg)
 
 ### API Radio Canada
 - Neuro (http://services.radio-canada.ca/neuro/v1/documentation)
@@ -55,6 +55,75 @@ Line up ID | Nom
 
 #### Example consommation Picto
 > http://images.radio-canada.ca/v1/ici-info/1x1/lucie-charlebois-ministre.png
+
+#### Documentation sitesearch
+https://services.radio-canada.ca/hackathon2017/sitesearch/help
+
+#### Example consommation sitesearch
+> Faites un appel vers https://services.radio-canada.ca/hackathon2017/sitesearch/v1/internal/rcgraph/indexable-content-summaries
+> Utilisez le api key comme ci-dessous dans l'entête de la requête
+ 
+Nom d'entête | Valeur
+--- | --- 
+Authorization | Client-Key 31e51cda-4ab0-4234-83c2-25d503c69487
+
+#### Example de content type id pour sitesearch
+Unknown | 0,
+Media | 1,
+ConceptualImage | 2,//Obsolète
+YouTube | 3,
+SoundCloud | 4,
+Vine | 5,
+Instagram | 6,
+Vimeo | 7,
+RadioHeadlineItem | 8,
+ShortContent | 9,
+MuContent | 10,
+NewsStory | 11,
+RadioWebCast | 12,
+LiveWebCast | 13,
+AdHoc | 14,
+MediaThreadCue | 15,
+RadioProgrammeCard | 16,
+TvProgrammeCard | 17,
+Episode | 18,
+Picto | 19,
+Ght1tImage | 20,
+NotIndexedImage | 21,
+MusicTrack | 22,
+BroadcastableContentComplement | 23,
+Programme | 24,
+Season | 25,
+Clip | 26,
+NotIndexedContent | 27,
+Lineup | 28,
+Dossier | 29,
+PhotoAlbumV1 | 30,
+PhotoAlbumV2 | 31,
+SportCalendar | 32,
+MusicTrackDiskAdmin | 33,
+Sotchi2014Content | 34,
+Subject | 35,
+GregContent | 36,
+MusicHallWebPage | 37,
+WebRadio | 38,
+ZBlogPost | 40,
+BlogPost | 41,
+CueSheet | 42,
+Cue | 43,
+PodcastChannel | 44,
+ClipType | 45,
+BroadcastableContentComplementType | 46,
+Panam2015Content | 47,
+LiveWebCastChannel | 48,
+HtmlSnippet | 49,
+PressAgency | 50,
+BroadcastingNetwork | 51,
+Alert | 52,
+FirstPlay | 53,
+MusicAlbum | 54,
+Region | 55
+
 
 ### Contact
 Pour plus d'information vous pouvez contacter :
