@@ -1,7 +1,6 @@
-![](https://lh4.googleusercontent.com/-PVw-ZUM9vV8/UuWeH51os0I/AAAAAAAAD6M/0Ikg7viJftQ/w1286-h566-no/hackathon-starter-logo.jpg)
+![](https://lh5.googleusercontent.com/XKbMMderzM0nRk_1qoxUEOBpADhZ_87zIHwLPqcE68KtDRjrjP77-d6CIHbAtlPz7q10Y0P4iHUExkA=w3140-h1646-rw)
 
-Hackathon Starter
-|||||||||||||||||||||||
+# Hackathon Kit-Démarrage
 Ceci est une trousse de démarrage pour le hackathon de Radio Canada.
 
 ### Prerequis
