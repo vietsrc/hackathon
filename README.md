@@ -25,6 +25,7 @@ Ceci est une trousse de démarrage pour le hackathon de Radio Canada.
 - Neuro (http://services.radio-canada.ca/neuro/v1/documentation)
 - MediaNet 
 - Picto
+- SiteSearch (https://services.radio-canada.ca/hackathon2017/sitesearch/help)
 
 ### Example consommation Neuro
 > http://services.radio-canada.ca/neuro/v1/future/lineups/{lineupId}
@@ -55,9 +56,6 @@ Line up ID | Nom
 #### Example consommation Picto
 > http://images.radio-canada.ca/v1/ici-info/1x1/lucie-charlebois-ministre.png
 
-#### Documentation sitesearch
-https://services.radio-canada.ca/hackathon2017/sitesearch/help
-
 #### Example consommation sitesearch
 > Faites un appel vers https://services.radio-canada.ca/hackathon2017/sitesearch/v1/internal/rcgraph/indexable-content-summaries
 > Utilisez le api key comme ci-dessous dans l'entête de la requête
@@ -67,65 +65,68 @@ Nom d'entête | Valeur
 Authorization | Client-Key 31e51cda-4ab0-4234-83c2-25d503c69487
 
 #### Example de content type id pour sitesearch
-Unknown | 0,
-Media | 1,
-ConceptualImage | 2,//Obsolète
-YouTube | 3,
-SoundCloud | 4,
-Vine | 5,
-Instagram | 6,
-Vimeo | 7,
-RadioHeadlineItem | 8,
-ShortContent | 9,
-MuContent | 10,
-NewsStory | 11,
-RadioWebCast | 12,
-LiveWebCast | 13,
-AdHoc | 14,
-MediaThreadCue | 15,
-RadioProgrammeCard | 16,
-TvProgrammeCard | 17,
-Episode | 18,
-Picto | 19,
-Ght1tImage | 20,
-NotIndexedImage | 21,
-MusicTrack | 22,
-BroadcastableContentComplement | 23,
-Programme | 24,
-Season | 25,
-Clip | 26,
-NotIndexedContent | 27,
-Lineup | 28,
-Dossier | 29,
-PhotoAlbumV1 | 30,
-PhotoAlbumV2 | 31,
-SportCalendar | 32,
-MusicTrackDiskAdmin | 33,
-Sotchi2014Content | 34,
-Subject | 35,
-GregContent | 36,
-MusicHallWebPage | 37,
-WebRadio | 38,
-ZBlogPost | 40,
-BlogPost | 41,
-CueSheet | 42,
-Cue | 43,
-PodcastChannel | 44,
-ClipType | 45,
-BroadcastableContentComplementType | 46,
-Panam2015Content | 47,
-LiveWebCastChannel | 48,
-HtmlSnippet | 49,
-PressAgency | 50,
-BroadcastingNetwork | 51,
-Alert | 52,
-FirstPlay | 53,
-MusicAlbum | 54,
+Type de contenu | ID
+--- | --- 
+Unknown | 0
+Media | 1
+YouTube | 3
+SoundCloud | 4
+Vine | 5
+Instagram | 6
+Vimeo | 7
+RadioHeadlineItem | 8
+ShortContent | 9
+MuContent | 10
+NewsStory | 11
+RadioWebCast | 12
+LiveWebCast | 13
+AdHoc | 14
+MediaThreadCue | 15
+RadioProgrammeCard | 16
+TvProgrammeCard | 17
+Episode | 18
+Picto | 19
+Ght1tImage | 20
+NotIndexedImage | 21 
+MusicTrack | 22
+BroadcastableContentComplement | 23
+Programme | 24
+Season | 25
+Clip | 26
+NotIndexedContent | 27
+Lineup | 28
+Dossier | 29
+PhotoAlbumV1 | 30
+PhotoAlbumV2 | 31
+SportCalendar | 32
+MusicTrackDiskAdmin | 33
+Sotchi2014Content | 34
+Subject | 35
+GregContent | 36
+MusicHallWebPage | 37
+WebRadio | 38
+ZBlogPost | 40
+BlogPost | 41
+CueSheet | 42
+Cue | 43
+PodcastChannel | 44
+ClipType | 45
+BroadcastableContentComplementType | 46
+Panam2015Content | 47
+LiveWebCastChannel | 48
+HtmlSnippet | 49
+PressAgency | 50
+BroadcastingNetwork | 51
+Alert | 52
+FirstPlay | 53
+MusicAlbum | 54
 Region | 55
 
-
+### Afin d'aider
+- Tache automatiser pour déploiement
+à
 ### Contact
 Pour plus d'information vous pouvez contacter :
 - Viet Nguyen (mailto: quoc-viet.nguyen@radio-canada.ca)
 - Hugo Leclerc (mailto: hugo.leclerc@radio-canada.ca)
-- Dominic Fortin (mailto: dominic.fortin@radio-canada.ca)
+- Dominic Fortin (mailto: hackathon@radio-canada.ca)
