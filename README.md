@@ -10,15 +10,15 @@ Ceci est une trousse de démarrage pour le hackathon des Médias numériques.
 
 #### Si vous désirez faire des réseaux sociaux
 ###### Pour obtenir un Facebook APP ID (https://developers.facebook.com/apps)
-- Pour les étapes vous pouvez consulter les saisies d'écran via /screenshots/Facebook_AppID/
+- Pour les étapes, vous pouvez consulter les saisies d'écran via /screenshots/Facebook_AppID/
 [![IMAGE ALT TEXT HERE](http://img.youtube.com/vi/8i9p3D854O4/0.jpg)](http://www.youtube.com/watch?v|8i9p3D854O4)
 
 ###### Pour obtenir un Twitter APP ID (https://apps.twitter.com/)
-- Pour les étapes vous pouvez consulter les saisies d'écran via /screenshots/Twitter_AppID/
+- Pour les étapes, vous pouvez consulter les saisies d'écran via /screenshots/Twitter_AppID/
 [![IMAGE ALT TEXT HERE](http://img.youtube.com/vi/9ckccMDhtQI/0.jpg)](http://www.youtube.com/watch?v|9ckccMDhtQI)
 
 ###### Pour obtenir un Instagram APP ID (https://www.instagram.com/developer/)
-- Pour les étapes vous pouvez consulter les saisies d'écran via /screenshots/Instagram_AppID/
+- Pour les étapes, vous pouvez consulter les saisies d'écran via /screenshots/Instagram_AppID/
 [![IMAGE ALT TEXT HERE](http://img.youtube.com/vi/EZ6_1mm11kg/0.jpg)](http://www.youtube.com/watch?v|EZ6_1mm11kg)
 
 ### API Radio-Canada
