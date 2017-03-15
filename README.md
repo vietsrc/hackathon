@@ -1,36 +1,36 @@
-![](https://lh5.googleusercontent.com/XKbMMderzM0nRk_1qoxUEOBpADhZ_87zIHwLPqcE68KtDRjrjP77-d6CIHbAtlPz7q10Y0P4iHUExkA=w3140-h1646-rw)
+![](https://lh3.googleusercontent.com/xF2sAJF0UIOxVW618rZqWEmYDRx6lB_NpezX0W1t9z97CQVA94InQO7LEOPPMzaQEj4vc2OAxvXa0N0=w3140-h1642-rw)
 
 # Hackathon Kit-Démarrage
-Ceci est une trousse de démarrage pour le hackathon de Radio Canada.
+Ceci est une trousse de démarrage pour le hackathon de Radio-Canada.
 
 ### Prerequis
 - Compte Azure (https://azure.microsoft.com/en-us/free/)
 - App ID pour les réseau sociaux
-- Accès fonctionnel pour les API de Radio Canada
+- Accès fonctionnel pour les API de Radio-Canada
 
 #### Si vous désirez faire du réseau sociaux
 ###### Pour obtenir un Facebook APP ID (https://developers.facebook.com/apps)
-- Pour les étapes vous pouvez consulter les screenshots via /screenshots/Facebook_AppID/
+- Pour les étapes vous pouvez consulter les saisies d'écran via /screenshots/Facebook_AppID/
 [![IMAGE ALT TEXT HERE](http://img.youtube.com/vi/8i9p3D854O4/0.jpg)](http://www.youtube.com/watch?v|8i9p3D854O4)
 
 ###### Pour obtenir un Twitter APP ID (https://apps.twitter.com/)
-- Pour les étapes vous pouvez consulter les screenshots via /screenshots/Twitter_AppID/
+- Pour les étapes vous pouvez consulter les saisies d'écran via /screenshots/Twitter_AppID/
 [![IMAGE ALT TEXT HERE](http://img.youtube.com/vi/9ckccMDhtQI/0.jpg)](http://www.youtube.com/watch?v|9ckccMDhtQI)
 
 ###### Pour obtenir un Instagram APP ID (https://www.instagram.com/developer/)
-- Pour les étapes vous pouvez consulter les screenshots via /screenshots/Instagram_AppID/
+- Pour les étapes vous pouvez consulter les saisies d'écran via /screenshots/Instagram_AppID/
 [![IMAGE ALT TEXT HERE](http://img.youtube.com/vi/EZ6_1mm11kg/0.jpg)](http://www.youtube.com/watch?v|EZ6_1mm11kg)
 
-### API Radio Canada
-- Neuro (http://services.radio-canada.ca/neuro/v1/documentation)
+### API Radio-Canada
+- Neuro (http://services.radio-canada.ca/hackathon2017/neuro/v1/documentation)
 - MediaNet 
 - Picto
 - SiteSearch (https://services.radio-canada.ca/hackathon2017/sitesearch/help)
 
-### Example consommation Neuro
+### Exemple consommation Neuro
 > http://services.radio-canada.ca/neuro/v1/future/lineups/{lineupId}
 
-#### Example de line up
+#### Exemple de line up
 
 Line up ID | Nom
 --- | --- 
@@ -45,18 +45,18 @@ Line up ID | Nom
 4167 | Arts - À la une
 4169 | Techno - À la une
 
-#### Example consommation MediaNet
-> Par example pour une nouvelles : 
-> http://services.radio-canada.ca/neuro/v1/news-stories/1005274
+#### Exemple consommation MediaNet
+> Par exemple pour une nouvelles : 
+> http://services.radio-canada.ca/hackathon2017/neuro/v1/news-stories/1005274
 > Vous allez retrouver sous summaryMultimediaContent un selflink qui est 
-> http://services.radio-canada.ca/neuro/v1/media/7647781
+> http://services.radio-canada.ca/hackathon2017/neuro/v1/media/7647781
 > Pour connecter le player medianet
 > 
 
-#### Example consommation Picto
+#### Exemple consommation Picto
 > http://images.radio-canada.ca/v1/ici-info/1x1/lucie-charlebois-ministre.png
 
-#### Example consommation sitesearch
+#### Exemple consommation sitesearch
 > Faites un appel vers https://services.radio-canada.ca/hackathon2017/sitesearch/v1/internal/rcgraph/indexable-content-summaries
 > Utilisez le api key comme ci-dessous dans l'entête de la requête
  
@@ -64,7 +64,7 @@ Nom d'entête | Valeur
 --- | --- 
 Authorization | Client-Key 31e51cda-4ab0-4234-83c2-25d503c69487
 
-#### Example de content type id pour sitesearch
+#### Exemple de content type id pour sitesearch
 Type de contenu | ID
 --- | --- 
 Unknown | 0
@@ -122,9 +122,6 @@ FirstPlay | 53
 MusicAlbum | 54
 Region | 55
 
-### Afin d'aider
-- Tache automatiser pour déploiement
-à
 ### Contact
 Pour plus d'information vous pouvez contacter :
 - Viet Nguyen (mailto: quoc-viet.nguyen@radio-canada.ca)
