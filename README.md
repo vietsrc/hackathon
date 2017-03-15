@@ -126,7 +126,7 @@ Region | 55
 https://onedrive.live.com/edit.aspx?resid=3C85BE376C0688EE%218890&id=documents&authkey=!APQHS3IzjOuqdnw&
 
 ### Contact
-Pour plus d'information vous pouvez contacter :
+Pour plus d'information, vous pouvez contacter :
 - Viet Nguyen (mailto: quoc-viet.nguyen@radio-canada.ca)
 - Hugo Leclerc (mailto: hugo.leclerc@radio-canada.ca)
 - Dominic Fortin (mailto: hackathon@radio-canada.ca)
