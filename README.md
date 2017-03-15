@@ -122,6 +122,9 @@ FirstPlay | 53
 MusicAlbum | 54
 Region | 55
 
+### Informations venant de Microsoft
+https://onedrive.live.com/edit.aspx?resid=3C85BE376C0688EE%218890&id=documents&authkey=!APQHS3IzjOuqdnw&
+
 ### Contact
 Pour plus d'information vous pouvez contacter :
 - Viet Nguyen (mailto: quoc-viet.nguyen@radio-canada.ca)
