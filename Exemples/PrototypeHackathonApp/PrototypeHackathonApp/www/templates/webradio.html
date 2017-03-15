@@ -1,0 +1,41 @@
+﻿<ion-header-bar class="rc-back-color bar-stable icon-centered logo no-bar">
+    <span class="icon-gem icon-right-spacing "></span><span class="icon-radio-canada logo"></span>
+</ion-header-bar>
+<ion-view>
+  <ion-content>
+      <div class="content">
+          <h2>Web radios en vedette</h2>
+
+          <div>
+              <ion-list>
+                  <ion-item ng-repeat="webradio in webradios" ng-click="playWebRadio({{webradio.id}})">
+                      <div class="article">
+                          <div class="play-container">
+                              <img ng-src="{{webradio.summaryImage.concreteImages[0].mediaLink.href}}"/>
+                              <div class="play-overlay">
+                                  <span class="icon-play"></span>
+                              </div>
+                          </div>
+                          <div>
+                              <p ng-bind-html="webradio.title">
+                              </p>
+                          </div>
+                      </div>
+                  </ion-item>
+              </ion-list>
+          </div>
+      </div>
+      <div id="textpositiondiv">Time played: <span id="textposition">stopped</span></div>
+      <div id="playcontrols">
+          <a href="#" id="playbutton" onClick="html5audio.play();return false;"><img src="images/playbutton.png" alt="play"/></a>
+          <a href="#" id="activityindicator" onClick="html5audio.stop();return false;"><img src="images/activityindicator.gif" alt="stop"/></a>
+          <a href="#" id="stopbutton" onClick="html5audio.stop();return false;"><img src="images/stopbutton.png" alt="stop"/></a>
+      </div>
+  </ion-content>
+</ion-view>
+<script type="text/javascript">
+		  playButton = document.getElementById('playbutton');
+		  stopButton = document.getElementById('stopbutton');
+		  activityIndicator = document.getElementById('activityindicator');
+		  textPosition = document.getElementById('textposition');
+</script>

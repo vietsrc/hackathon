@@ -5,10 +5,10 @@ Ceci est une trousse de démarrage pour le hackathon de Radio-Canada.
 
 ### Prerequis
 - Compte Azure (https://azure.microsoft.com/en-us/free/)
-- App ID pour les réseau sociaux
+- App ID pour les réseaux sociaux
 - Accès fonctionnel pour les API de Radio-Canada
 
-#### Si vous désirez faire du réseau sociaux
+#### Si vous désirez faire des réseaux sociaux
 ###### Pour obtenir un Facebook APP ID (https://developers.facebook.com/apps)
 - Pour les étapes vous pouvez consulter les saisies d'écran via /screenshots/Facebook_AppID/
 [![IMAGE ALT TEXT HERE](http://img.youtube.com/vi/8i9p3D854O4/0.jpg)](http://www.youtube.com/watch?v|8i9p3D854O4)
@@ -22,13 +22,13 @@ Ceci est une trousse de démarrage pour le hackathon de Radio-Canada.
 [![IMAGE ALT TEXT HERE](http://img.youtube.com/vi/EZ6_1mm11kg/0.jpg)](http://www.youtube.com/watch?v|EZ6_1mm11kg)
 
 ### API Radio-Canada
-- Neuro (http://services.radio-canada.ca/hackathon2017/neuro/v1/documentation)
+- Neuro (https://services.radio-canada.ca/hackathon2017/neuro/v1/documentation)
 - MediaNet 
 - Picto
 - SiteSearch (https://services.radio-canada.ca/hackathon2017/sitesearch/help)
 
 ### Exemple consommation Neuro
-> http://services.radio-canada.ca/neuro/v1/future/lineups/{lineupId}
+> https://services.radio-canada.ca/neuro/v1/future/lineups/{lineupId}
 
 #### Exemple de line up
 
@@ -46,15 +46,15 @@ Line up ID | Nom
 4169 | Techno - À la une
 
 #### Exemple consommation MediaNet
-> Par exemple pour une nouvelles : 
-> http://services.radio-canada.ca/hackathon2017/neuro/v1/news-stories/1005274
+> Par exemple pour une nouvelle : 
+> https://services.radio-canada.ca/hackathon2017/neuro/v1/news-stories/1005274
 > Vous allez retrouver sous summaryMultimediaContent un selflink qui est 
-> http://services.radio-canada.ca/hackathon2017/neuro/v1/media/7647781
+> https://services.radio-canada.ca/hackathon2017/neuro/v1/media/7647781
 > Pour connecter le player medianet
 > 
 
 #### Exemple consommation Picto
-> http://images.radio-canada.ca/v1/ici-info/1x1/lucie-charlebois-ministre.png
+> https://images.radio-canada.ca/v1/ici-info/1x1/lucie-charlebois-ministre.png
 
 #### Exemple consommation sitesearch
 > Faites un appel vers https://services.radio-canada.ca/hackathon2017/sitesearch/v1/internal/rcgraph/indexable-content-summaries

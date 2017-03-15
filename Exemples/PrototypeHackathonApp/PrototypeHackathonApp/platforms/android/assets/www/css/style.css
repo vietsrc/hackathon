@@ -1,0 +1,194 @@
+@font-face {
+    font-family: 'icomoon-app-info';
+    src:    url('../fonts/icomoon-app-info.eot?texwsf');
+    src:    url('../fonts/icomoon-app-info.eot?texwsf#iefix') format('embedded-opentype'),
+        url('../fonts/icomoon-app-info.ttf?texwsf') format('truetype'),
+        url('../fonts/icomoon-app-info.woff?texwsf') format('woff'),
+        url('../fonts/icomoon-app-info.svg?texwsf#icomoon-app-info') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+    /* use !important to prevent issues with browser extensions that change fonts */
+    font-family: 'icomoon-app-info' !important;
+    speak: none;
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+
+    /* Better Font Rendering =========== */
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-ici-rdi:before {
+    content: "\e910";
+}
+.icon-gem:before {
+    content: "\e900";
+}
+.icon-radio-canada:before {
+    content: "\e901";
+}
+.icon-burger:before {
+    content: "\e902";
+}
+.icon-check:before {
+    content: "\e903";
+}
+.icon-left-arrow:before {
+    content: "\e904";
+}
+.icon-right-arrow:before {
+    content: "\e905";
+}
+.icon-up-arrow:before {
+    content: "\e906";
+}
+.icon-down-arrow:before {
+    content: "\e907";
+}
+.icon-close:before {
+    content: "\e908";
+}
+.icon-dot:before {
+    content: "\e909";
+}
+.icon-play:before {
+    content: "\e90b";
+}
+.icon-pause:before {
+    content: "\e913";
+}
+.icon-settings:before {
+    content: "\e90c";
+}
+.icon-action:before {
+    content: "\e90d";
+}
+.icon-speaker:before {
+    content: "\e90e";
+}
+.icon-speaker-circle:before {
+    content: "\e911";
+}
+.icon-camera-circle:before {
+    content: "\e912";
+}
+.icon-video-camera:before {
+    content: "\e90a";
+}
+.icon-folder:before {
+    content: "\e90f";
+}
+.icon-radiojournal:before {
+    content: "\e914";
+}
+.icon-accessibility:before {
+    content: "\e915";
+}
+.icon-add:before {
+    content: "\e916";
+}
+.icon-edit:before {
+    content: "\e917";
+}
+
+.noborder {
+    border: 0 !important;
+}
+
+.icon-right-spacing {
+    padding-right: 10px;
+}
+
+.icon-left-spacing {
+    padding-left: 10px;
+}
+
+.icon-centered {
+    display: table-cell;
+    text-align: center;
+}
+
+.logo {
+    font-size: 32px;
+}
+
+.item {
+    border: 0 !important;
+}
+
+.radiocanada-color {
+    color: #ed1c24 !important;
+}
+
+.bar.bar-stable {
+    background-color: initial;
+}
+
+.bar-header {
+    border-bottom-width: 0 !important;
+}
+
+.no-bar {
+    background-image: initial !important;
+}
+
+.rc-back-color {
+    background-color: #ed1c24 !important;
+    color: #fff !important;
+}
+
+.bar-stable .button.button-clear {
+    color: #fff !important;
+}
+
+.item-complex .item-content, .item-radio .item-content {
+    padding: 8px !important;
+}
+
+img {
+    width: 100%;
+    height: auto;
+}
+
+.article {
+    width: 100%;
+    border: 2px solid #bebebe;
+    padding: 10px;
+}
+
+.page-title {
+    display: block;
+    text-align: center;
+    width: 100%;
+    padding: 10px;
+    font-size: 20px;
+}
+
+.content {
+    padding: 10px;
+}
+
+.play-container {
+    position: relative;
+}
+
+.play-overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 0.75;
+
+    font-size: 10em;
+    text-align: center;
+    padding-top: 19%;
+
+    color: #F4777C;/*#647D87;*/
+}

@@ -1,0 +1,21 @@
+﻿<ion-header-bar class="rc-back-color bar-stable icon-centered logo no-bar">
+    <span class="icon-gem icon-right-spacing "></span><span class="icon-radio-canada logo"></span>
+</ion-header-bar>
+<ion-view>
+    <ion-content>
+        <div class="page-title">
+            Publications récentes
+        </div>
+        <ion-list>
+            <ion-item ng-repeat="article in articles" href="#/app/article/{{article.id}}">
+                <div class="article">
+                    <img ng-src="{{article.picUrl}}" />
+                    <div>
+                        <p ng-bind-html="article.title">
+                        </p>
+                    </div>
+                </div>
+            </ion-item>
+        </ion-list>
+    </ion-content>
+</ion-view>
