@@ -1,7 +1,7 @@
 ![](https://lh3.googleusercontent.com/xF2sAJF0UIOxVW618rZqWEmYDRx6lB_NpezX0W1t9z97CQVA94InQO7LEOPPMzaQEj4vc2OAxvXa0N0=w3140-h1642-rw)
 
 # Hackathon Kit-Démarrage
-Ceci est une trousse de démarrage pour le hackathon de Radio-Canada.
+Ceci est une trousse de démarrage pour le hackathon des Médias numériques.
 
 ### Prerequis
 - Compte Azure (https://azure.microsoft.com/en-us/free/)
@@ -27,7 +27,7 @@ Ceci est une trousse de démarrage pour le hackathon de Radio-Canada.
 - Picto
 - SiteSearch (https://services.radio-canada.ca/hackathon2017/sitesearch/help)
 
-### Exemple consommation Neuro
+### Exemple de consommation Neuro
 > https://services.radio-canada.ca/neuro/v1/future/lineups/{lineupId}
 
 #### Exemple de line up
@@ -45,7 +45,7 @@ Line up ID | Nom
 4167 | Arts - À la une
 4169 | Techno - À la une
 
-#### Exemple consommation MediaNet
+#### Exemple de consommation MediaNet
 > Par exemple pour une nouvelle : 
 > https://services.radio-canada.ca/hackathon2017/neuro/v1/news-stories/1005274
 > Vous allez retrouver sous summaryMultimediaContent un selflink qui est 
@@ -53,10 +53,10 @@ Line up ID | Nom
 > Pour connecter le player medianet
 > 
 
-#### Exemple consommation Picto
+#### Exemple de consommation Picto
 > https://images.radio-canada.ca/v1/ici-info/1x1/lucie-charlebois-ministre.png
 
-#### Exemple consommation sitesearch
+#### Exemple de consommation sitesearch
 > Faites un appel vers https://services.radio-canada.ca/hackathon2017/sitesearch/v1/internal/rcgraph/indexable-content-summaries
 > Utilisez le api key comme ci-dessous dans l'entête de la requête
  
