@@ -1,0 +1,12 @@
+/* Webfont: Rubrik-ExtraLight */
+@font-face {
+    font-family: 'RubrikXLt';
+    font-style: 'normal';
+    font-weight: 'normal';
+    src: url('Rubrik-ExtraLight.eot'); /* IE9 Compat Modes */
+    src: url('Rubrik-ExtraLight.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+         url('Rubrik-ExtraLight.woff') format('woff'), /* Modern Browsers */
+         url('Rubrik-ExtraLight.svg#Rubrik-ExtraLight') format('svg'), /* Legacy iOS */
+         url('Rubrik-ExtraLight.ttf') format('truetype'); /* Safari, Android, iOS */
+}
+

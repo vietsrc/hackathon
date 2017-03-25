@@ -1,0 +1,12 @@
+/* Webfont: Rubrik-SemiBoldItalic */
+@font-face {
+    font-family: 'RubrikSemBol';
+    font-style: 'italic';
+    font-weight: 'normal';
+    src: url('Rubrik-SemiBoldItalic.eot'); /* IE9 Compat Modes */
+    src: url('Rubrik-SemiBoldItalic.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+         url('Rubrik-SemiBoldItalic.woff') format('woff'), /* Modern Browsers */
+         url('Rubrik-SemiBoldItalic.svg#Rubrik-SemiBoldItalic') format('svg'), /* Legacy iOS */
+         url('Rubrik-SemiBoldItalic.ttf') format('truetype'); /* Safari, Android, iOS */
+}
+

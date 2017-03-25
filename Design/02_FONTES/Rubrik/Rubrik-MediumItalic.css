@@ -1,0 +1,12 @@
+/* Webfont: Rubrik-MediumItalic */
+@font-face {
+    font-family: 'RubrikMd';
+    font-style: 'italic';
+    font-weight: 'normal';
+    src: url('Rubrik-MediumItalic.eot'); /* IE9 Compat Modes */
+    src: url('Rubrik-MediumItalic.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+         url('Rubrik-MediumItalic.woff') format('woff'), /* Modern Browsers */
+         url('Rubrik-MediumItalic.svg#Rubrik-MediumItalic') format('svg'), /* Legacy iOS */
+         url('Rubrik-MediumItalic.ttf') format('truetype'); /* Safari, Android, iOS */
+}
+

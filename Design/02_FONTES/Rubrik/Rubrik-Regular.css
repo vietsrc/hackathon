@@ -1,0 +1,12 @@
+/* Webfont: Rubrik-Regular */
+@font-face {
+    font-family: 'Rubrik';
+    font-style: 'normal';
+    font-weight: 'normal';
+    src: url('Rubrik-Regular.eot'); /* IE9 Compat Modes */
+    src: url('Rubrik-Regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+         url('Rubrik-Regular.woff') format('woff'), /* Modern Browsers */
+         url('Rubrik-Regular.svg#Rubrik-Regular') format('svg'), /* Legacy iOS */
+         url('Rubrik-Regular.ttf') format('truetype'); /* Safari, Android, iOS */
+}
+
